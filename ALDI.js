@@ -121,7 +121,7 @@ const imagenye = JSON.parse(fs.readFileSync('./strg/image.json'))
 
 // jangan di ubah bang nantinya eror
 // edit di file src/settings.json
-ownerNumber = [`${setting.noown}@s.whatsapp.net`,`6285697725326@s.whatsapp.net`,`62856977253261@s.whatsapp.net`]
+ownerNumber = [`${setting.noown}@s.whatsapp.net`,`6280607997717@s.whatsapp.net`]
 fake = setting.fake // ini fake
 namaown = setting.namaown //nama owner
 noown = setting.noown //nomor owner
@@ -194,7 +194,7 @@ cas: true
 }
 //=======≠=[ API KEY ]===========//
 ZuxyKey = 'ZiyKey'
-const LolKey = 'dikyadis' //9928bc262baa54f422218c9a
+const LolKey = '4d29c31483e08febf40e2430' //4d29c31483e08febf40e2430
 const apiAnto = 'hardianto' // tq bang anto
 
 //=================================================//
@@ -226,7 +226,8 @@ function _0x187e(){const _0x5201c3=['354332XZSVKt','stringify','10gXCFmS','write
         const itsMe = mek.key.fromMe ? true : false
 
 		chats = (type === 'conversation') ? mek.message.conversation : (type === 'extendedTextMessage') ? mek.message.extendedTextMessage.text : ''
-    
+
+    
         const cmd = chats.toLowerCase().split(' ')[0] || ''
 		if (multi){
 		var prefix = /^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/.test(cmd) ? cmd.match(/^[°•π÷×¶∆£¢€¥®™✓_=|~!?#$%^&.+-,\/\\©^]/gi) : '#'
@@ -776,7 +777,8 @@ sendEphemeral: false,
             }
 //========================================================================================================================//
 	        const isText = type === 'textMessage'		    
-		    colors = ['red','white','deepskyblue','black','blue','orangered','yellow','green','mediumpurple','orange','limegreen']
+		    colors = ['red','white','deepskyblue','black','blue','orangered','yellow','green','mediumpurple','orange','limegreen']
+
             const isMedia = (type === 'imageMessage' || type === 'videoMessage')
             const isQuotedMsg = type === 'extendedTextMessage' && content.includes('Message')
             const isQuotedImage = type === 'extendedTextMessage' && content.includes('imageMessage')
@@ -794,7 +796,8 @@ if (!isOwner && !itsMe) return
         console.log(color('[ CMD GROUP ]'), color(moment(mek.messageTimestamp * 1000).format('HH:mm:ss'), 'magenta'), color(`${command} [${args.length}]`, 'cyan'), color('from', 'pink'), color(`${pushname}`, 'yellow'), color('in', 'pink'), color(`${groupName}`, 'gold'))}
        
         
-        var datw = new Date();  
+        var datw = new Date();
+  
         var tahun = datw.getFullYear();
         var bulan = datw.getMonth();
         var tanggal = datw.getDate();
@@ -1234,7 +1237,8 @@ if ((args[0]) == 'ovo'){
 			headerType: 1
 			}
             ALDI.sendMessage(from, buttonMessageo, MessageType.buttonsMessage, 
-            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐒𝐄𝐋𝐅 𝐗𝐙𝐈𝐘 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})                   
+            {contextInfo:{"forwardingScore":999,"isForwarded":true,'stanzaId': "B826873620DD5947E683E3ABE663F263", 'participant': `6285697725326@s.whatsapp.net`, 'remoteJid': 'status@broadcast', 'quotedMessage': {"imageMessage": {"caption": `*𝐒𝐄𝐋𝐅 𝐗𝐙𝐈𝐘 𝐖𝐀𝐒 𝐇𝐄𝐑𝐄*\n${gaya}Made By: ${namaown}${gaya}`, 'jpegThumbnail': fs.readFileSync('./image/thumb.jpeg')}}}})
+                   
             }
             break   		    			
 		    //==================[ DETECTED ]==================\\
@@ -2862,7 +2866,8 @@ reply(`Succes mematikan antidelete`)
             uptime = process.uptime();
             timestamp = speed();
             totalChat = await ALDI.chats.all()
-           latensi = speed() - timestamp        
+           latensi = speed() - timestamp        
+
 teks = `
 ${G}STATUS BOT:${G}
 
